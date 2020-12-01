@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml" xmlns="http://javafx.com/javafx" fx:controller="Main">
+    <HBox styleClass="label-container">
+        <Label fx:id="label" text="0" onMouseClicked="#onMouseClicked"/>
+    </HBox>
+    <HBox>
+        <Button fx:id="clear" styleClass="function" text="AC" onMouseClicked="#onMouseClicked"/>
+        <Button id="changeSign" styleClass="function" text="±" onMouseClicked="#onMouseClicked"/>
+        <Button id="percent" styleClass="function" text="\%" onMouseClicked="#onMouseClicked"/>
+        <Button id="division" styleClass="operation" text="÷" onMouseClicked="#onMouseClicked"/>
+    </HBox>
+    <HBox>
+        <Button id="7" styleClass="number" text="7" onMouseClicked="#onMouseClicked"/>
+        <Button id="8" styleClass="number" text="8" onMouseClicked="#onMouseClicked"/>
+        <Button id="9" styleClass="number" text="9" onMouseClicked="#onMouseClicked"/>
+        <Button id="multiplication" styleClass="operation" text="×"
+                onMouseClicked="#onMouseClicked"/>
+    </HBox>
+    <HBox>
+        <Button id="4" styleClass="number" text="4" onMouseClicked="#onMouseClicked"/>
+        <Button id="5" styleClass="number" text="5" onMouseClicked="#onMouseClicked"/>
+        <Button id="6" styleClass="number" text="6" onMouseClicked="#onMouseClicked"/>
+        <Button id="subtraction" styleClass="operation" text="–" onMouseClicked="#onMouseClicked"/>
+    </HBox>
+    <HBox>
+        <Button id="1" styleClass="number" text="1" onMouseClicked="#onMouseClicked"/>
+        <Button id="2" styleClass="number" text="2" onMouseClicked="#onMouseClicked"/>
+        <Button id="3" styleClass="number" text="3" onMouseClicked="#onMouseClicked"/>
+        <Button id="addition" styleClass="operation" text="+" onMouseClicked="#onMouseClicked"/>
+    </HBox>
+    <HBox>
+        <Button id="0" styleClass="number, zero" text="0           "
+                onMouseClicked="#onMouseClicked"/>
+        <Button id="decimalPoint" styleClass="number" text="." onMouseClicked="#onMouseClicked"/>
+        <Button id="result" styleClass="equal" text="=" onMouseClicked="#onMouseClicked"/>
+    </HBox>
+</VBox>

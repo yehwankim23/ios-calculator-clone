@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("font.ttf");
+}
+
+* {
+    -fx-font-family: "Roboto";
+}
+
+VBox,
+HBox {
+    -fx-alignment: "CENTER";
+    -fx-spacing: 14px;
+}
+
+VBox {
+    -fx-pref-width: 414px;
+    -fx-pref-height: 736px;
+    -fx-background-color: #000000;
+}
+
+HBox {
+    -fx-pref-width: 382px;
+    -fx-pref-height: 85px;
+}
+
+Label {
+    -fx-pref-width: 350px;
+    -fx-pref-height: 207px;
+    -fx-font-size: 90px;
+    -fx-text-fill: #feffff;
+    -fx-alignment: "BOTTOM_RIGHT";
+    -fx-text-overrun: "LEADING-ELLIPSIS";
+}
+
+Button {
+    -fx-pref-height: 85px;
+    -fx-pref-width: 85px;
+    -fx-background-radius: 42.5px;
+}
+
+.label-container {
+    -fx-pref-height: 207px;
+}
+
+.function {
+    -fx-background-color: #a5a5a5;
+    -fx-font-size: 30px;
+    -fx-text-fill: #000000;
+}
+
+.function:hover {
+    -fx-background-color: #d9d9d9;
+}
+
+.operation {
+    -fx-background-color: #fe9f0a;
+    -fx-font-size: 42.5px;
+    -fx-text-fill: #feffff;
+}
+
+.operation:hover {
+    -fx-background-color: #fbc78d;
+}
+
+.operation:focused {
+    -fx-background-color: #feffff;
+    -fx-text-fill: #fe9f0a;
+}
+
+.number {
+    -fx-background-color: #333333;
+    -fx-font-size: 36px;
+    -fx-text-fill: #feffff;
+}
+
+.number:hover {
+    -fx-background-color: #737373;
+}
+
+.zero {
+    -fx-pref-width: 184px;
+}
+
+.equal {
+    -fx-background-color: #fe9f0a;
+    -fx-font-size: 42.5px;
+    -fx-text-fill: #feffff;
+}
+
+.equal:hover {
+    -fx-background-color: #fbc78d;
+}
